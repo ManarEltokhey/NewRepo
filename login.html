@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head id="headid">
+<title>Registration-page </title>
+<link rel="stylesheet" href="/logincss.css">
+<meta charset="UTF-8">
+     <meta name="description"content="this is Registration page ">
+    </head>
+    <body >
+<form style="background-color: rgb(221, 225, 221);" method="post" action="thankyou.html">
+    <fieldset>
+    <label>User ID</label>
+    <input type="hidden" size="14" name="User ID">
+    <br>
+    <br>
+    <div>
+    <label class="required">First Name</label></div>
+    <input type="text" name="First Name"  required>
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+    </div>
+    <br>
+    <br>
+<div>
+    <label class="required">Last Name</label>
+    <input type="text" name="Last Name" required>
+    <span class="not">Not valid</span>
+     <span class="valid">valid</span>
+    </div>
+    <br>
+    <br>
+    <div>
+    <label class="required">Email</label>
+     <input type="email" name="Email" required >
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+</div>
+    <br>
+    <br>
+    <div>
+    <label class="required">Password</label>
+    <input type="password" name="Password" id="pass" required>
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+</div>
+    <br>
+    <br>
+    <div>
+    <label class="required">Repeat password </label>
+    <input type="password" name="repassword" required >
+<span class="not">Not valid</span>
+<span class="valid">valid</span>
+</div>
+    <br>
+    <br>
+    <label>BirthDate</label>
+    <input type="date" name="BirthDate" >
+    <br>
+    <br>
+    <label>upload your picture</label>
+    <input type="file" name="pic" >
+    <br>
+    <br>
+    <fieldset>
+        <legend style="color: rgb(119, 119, 205);font-size: 20px;"> <i><b>Gender</b></i></legend>
+    <input type="radio" name="g1" value="m">Male
+    <input type="radio" name="g1" value="f">Female
+</fieldset>
+    <br>
+    <br>
+    <label>Choose your faculty</label>
+    <select name="faculties">
+    <option value="a">Faculty of Agriculture</option>
+    <option value="m">Faculty of Medicine</option>
+    <option value="a2">Faculty of Arts</option>
+    <option value="c">Faculty of Commerce</option>
+    <option value="e">Faculty of Engineering</option>
+    </select>
+    <br>
+    <br>
+    <fieldset>
+        <legend style="color: rgb(119, 119, 205);font-size: 20px;"><i> <b>Interests</b></i></legend>
+        <input type="checkbox" name="interest1"value="1">Swimming
+        <input type="checkbox" name="interest2"value="2">Singing
+        <input type="checkbox" name="interest3"value="3">coding
+        <input type="checkbox" name="interest4"value="4">Reading
+    </fieldset>
+    <br>
+    <br>
+    <label style="font-size: 20px;text-align: center;">About me:</label>
+    <br>
+    <br>
+    <textarea cols="30"rows="10" name="aboutme">Introduce yourself</textarea>
+    <br>
+    <br>
+    <a href="https://www.termsfeed.com" type="checkbox">I agree to terms and conditions</a>
+    
+    <br>
+    <br>
+    
+    <input type="submit">
+    
+    <br>
+    <br>
+    <input type="reset">
+    <br>
+    <br>
+    <a class="button button1" href="login.html">
+        <img src="rescources/up.png" width="20px" height="20px"></a>
+    </a>
+</fieldset>
+</form>
+
+
+    </body>
+</html>
